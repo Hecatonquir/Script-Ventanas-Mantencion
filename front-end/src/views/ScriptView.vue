@@ -55,7 +55,9 @@ export default {
           style="height: 100px"
         />
       </a>
-      <h1>Ventanas de Mantención</h1>
+      <div style="display: flex; justify-content: flex-start">
+        <h1>Ventanas de Mantención</h1>
+      </div>
     </div>
     <form @submit.prevent>
       <div class="form_container">
