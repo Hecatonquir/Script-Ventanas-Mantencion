@@ -47,7 +47,11 @@ export default {
 <template>
   <div class="about">
     <div class="title">
-      <a href="https://google.com" target="_blank">
+      <a
+        href="https://google.com"
+        target="_blank"
+        style="width: 40%; display: flex; justify-content: center"
+      >
         <img
           className="logo"
           src="../assets/Logo.png"
@@ -55,7 +59,7 @@ export default {
           style="height: 100px"
         />
       </a>
-      <div style="display: flex; justify-content: flex-start">
+      <div style="width: 60%; display: flex; justify-content: flex-start">
         <h1>Ventanas de Mantención</h1>
       </div>
     </div>
