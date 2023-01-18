@@ -1,5 +1,5 @@
 {
-  "name": "front-end",
+  "name": "front-end-2",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,18 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
+    "axios": "^1.2.1",
+    "element-plus": "^2.2.28",
+    "googleapis": "^110.0.0",
+    "vue": "^3.2.45"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
     "@vitejs/plugin-vue": "^4.0.0",
-    "@vitejs/plugin-vue-jsx": "^3.0.0",
     "@vue/eslint-config-prettier": "^7.0.0",
     "eslint": "^8.22.0",
     "eslint-plugin-vue": "^9.3.0",
+    "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
     "vite": "^4.0.0"
   }
